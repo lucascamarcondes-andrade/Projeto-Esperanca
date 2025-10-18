@@ -1,58 +1,74 @@
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+/* ================================
+   🎨 Design System - Projeto Esperança
+   ================================ */
+
+/* 🎨 Variáveis principais */
+:root {
+  /* Paleta de cores */
+  --color-primary: #2c7a7b;
+  --color-primary-light: #38b2ac;
+  --color-secondary: #e76f51;
+  --color-accent: #f4a261;
+  --color-neutral-dark: #333;
+  --color-neutral: #666;
+  --color-neutral-light: #f1f1f1;
+  --color-bg: #fafafa;
+  --color-white: #fff;
+
+  /* Tipografia */
+  --font-primary: 'Poppins', sans-serif;
+  --font-secondary: 'Roboto', sans-serif;
+
+  /* Tamanhos de fonte */
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-md: 16px;
+  --text-lg: 20px;
+  --text-xl: 28px;
+
+  /* Espaçamento (sistema modular) */
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-5: 48px;
+  --space-6: 64px;
+
+  /* Bordas e sombras */
+  --radius: 8px;
+  --shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ================================
+   Reset e Base
+   ================================ */
+* {
   margin: 0;
   padding: 0;
-  background-color: #f8f9fa;
-  color: #333;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-primary);
+  font-size: var(--text-md);
+  background-color: var(--color-bg);
+  color: var(--color-neutral-dark);
   line-height: 1.6;
 }
 
-header {
-  background-color: #2a9d8f;
-  color: white;
-  padding: 20px 0;
-  text-align: center;
-}
-
-nav a {
-  color: white;
-  margin: 0 15px;
+a {
   text-decoration: none;
-  font-weight: bold;
+  color: var(--color-primary);
 }
 
-nav a:hover {
-  text-decoration: underline;
+img {
+  max-width: 100%;
+  display: block;
 }
 
 .container {
   width: 90%;
-  max-width: 1100px;
-  margin: 20px auto;
-}
-
-.card {
-  background: white;
-  border-radius: 10px;
-  padding: 20px;
-  margin-bottom: 20px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
-
-img.responsive {
-  width: 100%;
-  max-width: 400px;
-  height: auto;
-  border-radius: 10px;
-  display: block;
-  margin: 10px auto;
-}
-
-footer {
-  text-align: center;
-  padding: 15px;
-  background-color: #2a9d8f;
-  color: white;
-  font-size: 0.9em;
-  border-top: 3px solid #21867a;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--space-3);
 }
