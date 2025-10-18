@@ -1,0 +1,57 @@
+/* ================================
+   📱 Responsividade
+   ================================ */
+
+/* 🔸 Layout base: 12 colunas (desktop) */
+.grid-12 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: var(--space-2);
+}
+
+/* 🔹 Breakpoints */
+@media (max-width: 1200px) {
+  body {
+    font-size: var(--text-sm);
+  }
+}
+
+@media (max-width: 992px) {
+  header .container {
+    flex-direction: column;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: flex;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  nav.active ul {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 95%;
+  }
+
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
