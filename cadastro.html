@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Projeto Esperança — Cadastro</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Cadastro de Voluntário</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="projetos.html">Projetos Sociais</a>
+      <a href="cadastro.html">Cadastro</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Preencha seus dados</h2>
+      <form>
+        <fieldset>
+          <legend>Informações Pessoais</legend>
+          <label>Nome Completo: <input type="text" name="nome" required></label><br><br>
+          <label>E-mail: <input type="email" name="email" required></label><br><br>
+          <label>CPF: <input type="text" name="cpf" data-mask="cpf" required></label><br><br>
+          <label>Telefone: <input type="text" name="telefone" data-mask="telefone" required></label><br><br>
+          <label>Data de Nascimento: <input type="date" name="nascimento" required></label>
+        </fieldset><br>
+
+        <fieldset>
+          <legend>Endereço</legend>
+          <label>Endereço: <input type="text" name="endereco" required></label><br><br>
+          <label>CEP: <input type="text" name="cep" data-mask="cep" required></label><br><br>
+          <label>Cidade: <input type="text" name="cidade" required></label><br><br>
+          <label>Estado: <input type="text" name="estado" maxlength="2" required></label>
+        </fieldset><br>
+
+        <button type="submit">Enviar Cadastro</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <small>© 2025 Projeto Esperança — Projeto de HTML5</small>
+  </footer>
+
+  <script src="js/masks.js"></script>
+</body>
+</html>
