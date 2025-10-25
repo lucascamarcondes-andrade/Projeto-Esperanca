@@ -1,112 +1,108 @@
-# 🌱 Projeto Esperança
+🌱 Projeto Esperança
+📘 Descrição
 
-Este projeto faz parte da **Experiência Prática I de HTML5**, com o objetivo de aplicar os fundamentos de **HTML5, formulários e multimídia** de forma semântica e organizada.
+O Projeto Esperança é uma plataforma desenvolvida como parte das Experiências Práticas da disciplina de Desenvolvimento Web.
+O objetivo é aplicar os fundamentos de HTML5, CSS3 e JavaScript, criando uma aplicação completa, acessível e responsiva.
 
----
+O site apresenta informações sobre a organização, seus projetos sociais e um formulário de cadastro para voluntários.
 
-## 🧩 Estrutura do Projeto
-
-Este projeto foi desenvolvido em três etapas práticas da disciplina de **Desenvolvimento Web Front-end**.
-
----
-
-## 🧩 Entregas
-
-### 🏗️ Entrega 1 — HTML5
-- Estrutura semântica com três páginas:
-  - `index.html`: sobre a organização;
-  - `projetos.html`: projetos sociais e voluntariado;
-  - `cadastro.html`: formulário completo com validação nativa.
-- Hierarquia de títulos e imagens organizadas.
-
----
-
-### 🎨 Entrega 2 — CSS3
-- Design system com variáveis de cor e tipografia;
-- Layout responsivo com Flexbox e Grid (12 colunas);
-- Menu responsivo e componentes de interface;
-- Paleta de 8 cores e sistema de espaçamento modular.
-
----
-
-### ⚙️ Entrega 3 — JavaScript
-- Sistema básico de **Single Page Application (SPA)**;
-- Validação de formulários com feedback visual;
-- Máscaras automáticas para CPF, telefone e CEP.
-
-
-```
-## 🗂️ Estrutura do Projeto
-
+🏗️ Estrutura do Projeto
 Projeto-Esperanca/
+│
 ├── index.html
 ├── projetos.html
 ├── cadastro.html
+│
 ├── css/
-│ ├── style.css
-│ ├── components.css
-│ └── responsive.css
+│   ├── style.css
+│   └── style.min.css
+│
 ├── js/
-│ ├── spa.js
-│ ├── masks.js
-│ └── validation.js
-└── images/
-```
+│   ├── masks.js
+│   ├── masks.min.js
+│   ├── validation.js
+│   ├── validation.min.js
+│   ├── spa.js
+│   ├── spa.min.js
+│   ├── accessibility.js
+│   ├── accessibility.min.js
+│
+├── images/
+│   ├── imagem1.avif
+│   └── imagem2.avif
+│
+└── README.md
 
----
 
-## 💡 Descrição das Páginas
+🎨 Tecnologias Utilizadas
 
-### 🏠 index.html
-Página inicial do **Projeto Esperança**, contendo:
-- Informações sobre a organização;
-- Dados de contato;
-- Imagem ilustrativa e missão do projeto.
+HTML5 – Estrutura semântica e formulários interativos
 
-### 🤝 projetos.html
-Apresenta os **projetos sociais**, destacando:
-- A importância do voluntariado;
-- Como fazer doações;
-- Imagem de apoio visual com ações sociais.
+CSS3 – Layouts modernos com Grid e Flexbox
 
-### 📝 cadastro.html
-Contém o **formulário de cadastro de voluntário**, com:
-- Validação HTML5 nativa;
-- Campos de CPF, telefone, CEP, com máscaras de entrada via JavaScript;
-- Estrutura semântica com `<fieldset>` e `<legend>`.
+JavaScript (ES6) – Manipulação do DOM e SPA
 
----
+Git/GitHub – Controle de versão e deploy via GitHub Pages
 
-## 🖼️ Recursos
+♿ Acessibilidade (WCAG 2.1 AA)
 
-- **HTML5 Semântico**
-- **Formulários Interativos**
-- **Validação Nativa**
-- **Imagens otimizadas (.avif)**
-- **Máscaras de input (CPF, telefone, CEP)**
+Navegação completa via teclado
 
----
+Contraste mínimo de 4.5:1
 
-## 🚀 Como Visualizar
+Estrutura semântica completa
 
-1. Baixe o repositório ou clone:
-   ```bash
-   git clone https://github.com/<seu-usuario>/Projeto_Esperanca.git
-   ```
-2. Abra o arquivo `index.html` no navegador.
+Modo de alto contraste e modo escuro
 
-3. (Opcional) Ative o **GitHub Pages** para visualização online:
-   - Vá em **Settings → Pages**
-   - Em “Branch”, selecione **main** e clique em **Save**
-   - O GitHub gerará um link público como:
-     ```
-     https://<seu-usuario>.github.io/Projeto_Esperanca/
-     ```
+Textos alternativos em todas as imagens
 
----
+🚀 Funcionalidades Implementadas
 
-## 👤 Autor
+Página inicial com informações da organização
 
-**Lucas Camarondes Andrade**  
+Seção de projetos sociais
+
+Formulário de cadastro com validação e máscaras (CPF, telefone, CEP)
+
+SPA (Single Page Application) com carregamento dinâmico
+
+Responsividade total (mobile, tablet e desktop)
+
+Sistema de temas (claro e escuro)
+
+Minificação e otimização para produção
+
+⚙️ Deploy
+
+O projeto está hospedado via GitHub Pages:
+👉 Acessar o Projeto Online
+
+🧩 Versionamento
+
+O projeto segue a estrutura GitFlow, com histórico de commits semântico:
+
+main: versão estável (produção)
+
+develop: ambiente de desenvolvimento
+
+feature/*: novas funcionalidades
+
+🧠 Autor
+
+👤 Lucas Andrade
+📧 lucascamarcondes@gmail.com
+📅 2025 — Projeto desenvolvido para fins educacionais
+
+🏁 Conclusão
+
+Este projeto representa a consolidação das entregas anteriores, unindo:
+
+Estrutura semântica (HTML5);
+
+Estilização e responsividade (CSS3);
+
+Interatividade e SPA (JavaScript);
+
+Acessibilidade e otimização profissional.
 📧 contato@projetoesperanca.org  
 💻 Projeto desenvolvido para a disciplina de Fundamentos de HTML5
