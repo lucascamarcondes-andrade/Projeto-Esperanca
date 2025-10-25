@@ -1,12 +1,23 @@
-🌱 Projeto Esperança
+# 🌱 Projeto Esperança
 
+[![Status](https://img.shields.io/badge/Status-Concluído-brightgreen?style=for-the-badge)]()
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)]()
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)]()
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)]()
+[![GitHub Pages](https://img.shields.io/badge/Deploy-GitHub_Pages-181717?style=for-the-badge&logo=github)]()
 
-📘 Descrição
+---
 
-O Projeto Esperança é uma plataforma web desenvolvida como parte das Experiências Práticas da disciplina de Desenvolvimento Web.
-Seu objetivo é aplicar os fundamentos de HTML5, CSS3 e JavaScript, criando uma aplicação completa, acessível e responsiva, voltada à divulgação de projetos sociais e ao cadastro de voluntários.
+## 📘 Descrição
 
-🏗️ Estrutura do Projeto
+O **Projeto Esperança** é uma plataforma web criada nas **Experiências Práticas de Desenvolvimento Web**, com o objetivo de aplicar os fundamentos de **HTML5**, **CSS3** e **JavaScript (ES6+)**.  
+A aplicação divulga **projetos sociais** e permite o **cadastro de voluntários**, seguindo princípios de **acessibilidade (WCAG 2.1 AA)** e **responsividade**.
+
+---
+
+## 🏗️ Estrutura do Projeto
+
+```plaintext
 Projeto-Esperanca/
 │
 ├── index.html
@@ -33,105 +44,3 @@ Projeto-Esperanca/
 │
 └── README.md
 
-🎨 Tecnologias Utilizadas
-
-HTML5 – Estrutura semântica e acessível
-
-CSS3 – Layout responsivo com Flexbox e Grid
-
-JavaScript (ES6+) – Manipulação de DOM, SPA e validações
-
-Git/GitHub – Versionamento e deploy via GitHub Pages
-
-♿ Acessibilidade (WCAG 2.1 Nível AA)
-
-O projeto foi desenvolvido seguindo as diretrizes de acessibilidade digital:
-
-Navegação completa por teclado (tabindex e foco visível)
-
-Contraste mínimo de 4.5:1 entre texto e fundo
-
-Estrutura semântica com uso de <header>, <main>, <section>, <footer>
-
-Textos alternativos (alt) em todas as imagens
-
-Suporte a leitores de tela (uso de ARIA labels)
-
-Modo de alto contraste e modo escuro acessível
-
-🚀 Funcionalidades Implementadas
-
-✅ Página inicial com informações institucionais
-✅ Seção com projetos sociais em destaque
-✅ Formulário de cadastro com máscaras e validação de dados
-✅ Sistema SPA (Single Page Application) com carregamento dinâmico
-✅ Layout totalmente responsivo (mobile, tablet e desktop)
-✅ Sistema de temas (claro e escuro)
-✅ Minificação e otimização de CSS, JS e HTML
-✅ Compressão de imagens e uso do formato AVIF
-
-⚙️ Otimização para Produção
-
-CSS: style.min.css (minificado)
-
-JS: masks.min.js, validation.min.js, spa.min.js, accessibility.min.js
-
-Imagens: convertidas e otimizadas para o formato .avif
-
-HTML: estrutura limpa, sem comentários desnecessários
-
-🧩 Versionamento e GitFlow
-
-Estrutura de Branches:
-
-main → versão estável (produção)
-
-develop → ambiente de desenvolvimento
-
-feature/* → novas funcionalidades
-
-release/* → preparação de novas versões
-
-Commits Semânticos:
-
-feat: nova funcionalidade
-
-fix: correção de bug
-
-refactor: melhoria de código
-
-docs: atualização de documentação
-
-style: ajustes visuais
-
-Exemplo de release:
-v1.0.0 – Entrega Final (Produção)
-
-🌐 Deploy
-
-O projeto está hospedado via GitHub Pages:
-🔗 Acessar o Projeto Online
-
-🧠 Autor
-
-👤 Lucas Andrade
-📧 lucascamarcondes@gmail.com
-
-📅 2025 — Projeto desenvolvido para fins educacionais
-
-🏁 Conclusão
-
-O Projeto Esperança consolida todas as etapas do desenvolvimento web moderno:
-
-Estrutura semântica (HTML5)
-
-Estilização e responsividade (CSS3)
-
-Interatividade e SPA (JavaScript)
-
-Acessibilidade e otimização profissional (WCAG 2.1 AA)
-
-Controle de versão e deploy (Git/GitHub)
-
-💻 Projeto desenvolvido para a disciplina Fundamentos de HTML5 e Desenvolvimento Web.
-📧 contato@projetoesperanca.org
