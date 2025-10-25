@@ -6,18 +6,51 @@ Este projeto faz parte da **Experiência Prática I de HTML5**, com o objetivo d
 
 ## 🧩 Estrutura do Projeto
 
+Este projeto foi desenvolvido em três etapas práticas da disciplina de **Desenvolvimento Web Front-end**.
+
+---
+
+## 🧩 Entregas
+
+### 🏗️ Entrega 1 — HTML5
+- Estrutura semântica com três páginas:
+  - `index.html`: sobre a organização;
+  - `projetos.html`: projetos sociais e voluntariado;
+  - `cadastro.html`: formulário completo com validação nativa.
+- Hierarquia de títulos e imagens organizadas.
+
+---
+
+### 🎨 Entrega 2 — CSS3
+- Design system com variáveis de cor e tipografia;
+- Layout responsivo com Flexbox e Grid (12 colunas);
+- Menu responsivo e componentes de interface;
+- Paleta de 8 cores e sistema de espaçamento modular.
+
+---
+
+### ⚙️ Entrega 3 — JavaScript
+- Sistema básico de **Single Page Application (SPA)**;
+- Validação de formulários com feedback visual;
+- Máscaras automáticas para CPF, telefone e CEP.
+
+
 ```
-Projeto_Esperanca/
+## 🗂️ Estrutura do Projeto
+
+Projeto-Esperanca/
 ├── index.html
 ├── projetos.html
 ├── cadastro.html
 ├── css/
-│   └── style.css
+│ ├── style.css
+│ ├── components.css
+│ └── responsive.css
 ├── js/
-│   └── masks.js
+│ ├── spa.js
+│ ├── masks.js
+│ └── validation.js
 └── images/
-    ├── voluntariado.avif
-    └── criancas.avif
 ```
 
 ---
